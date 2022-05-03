@@ -1,5 +1,7 @@
 TRAIN_BATCH_SIZE = 8
 VALID_BATCH_SIZE = 8
+NUM_EPOCHS = 10
 VALIDATION_SPLIT = 0.1
 LEARNING_RATE = 1e-05
 TV_SCRIPTS_DIRECTORY = "/net/projects/THEaiTRE/nrno_movies_scripts"
+MODEL_SAVE_PATH = 'outputs/best_model.pth'

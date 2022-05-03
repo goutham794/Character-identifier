@@ -95,6 +95,6 @@ def collator(batch):
     return {
         "encoded_utterances" : encoded_utterance_batch,
         "speaker_Sheldon" : torch.tensor(speaker_Sheldon_batch, dtype=torch.float),
-        "mask" : utterance_mask_batch
-        # "Lines" : utterances_batch
+        "mask" : utterance_mask_batch,
+        "Lines" : utterances_batch
     }
